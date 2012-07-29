@@ -86,6 +86,34 @@
 <rectangle x1="0.5" y1="0.65" x2="0.8" y2="1.1" layer="51"/>
 <rectangle x1="-0.8" y1="0.65" x2="-0.5" y2="1.1" layer="51"/>
 </package>
+<package name="SO8">
+<description>Standard SO8 package</description>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-3.175" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
+<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
+<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
+<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
+<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
+<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TEST_POINT">
@@ -152,6 +180,39 @@
 <text x="-7.62" y="-5.08" size="1.27" layer="95" rot="R90">&gt;NAME</text>
 <text x="-2.54" y="0" size="1.27" layer="97">&gt;VALUE</text>
 </symbol>
+<symbol name="SPST">
+</symbol>
+<symbol name="ACS711">
+<description>&lt;h3&gt;Hall Effect Linear Current Sensor with Overcurrent Fault Output for 100 V Isolation Applications&lt;/h3&gt;
+
+￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼&lt;/h3&gt;
+Features and Benefits
+▪ No external sense resistor required; single package solution ▪ 1.2 mΩ internal conductor resistance; reduced power loss
+▪ Economical low- and high-side current sensing
+▪ Output voltage proportional to AC or DC currents
+▪ ±12.5 A and ±25 A full scale sensing ranges
+▪ Overcurrent  ̄F ̄ ̄A ̄ ̄U ̄ ̄L ̄ ̄T ̄ trips and latches at 100% of full-scale current
+▪ Low-noise analog signal path
+▪ 100 kHz bandwidth
+▪ Small footprint, low-profile SOIC8 package
+▪ 3.0 to 5.5 V, single supply operation
+▪ Integrated electrostatic shield for output stability ▪ Factory-trimmed for accuracy
+▪ Extremely stable output offset voltage
+▪ Zero magnetic hysteresis
+▪ Ratiometric output from supply voltage</description>
+<pin name="IP+" x="-17.78" y="2.54" length="middle"/>
+<pin name="IP-" x="-17.78" y="-5.08" length="middle"/>
+<pin name="GND" x="0" y="-12.7" length="middle" direction="pwr" rot="R90"/>
+<pin name="/FAULT" x="17.78" y="-5.08" length="middle" function="dot" rot="R180"/>
+<pin name="VOUT" x="17.78" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="VCC" x="0" y="12.7" length="middle" direction="pwr" rot="R270"/>
+<wire x1="-12.7" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="5.08" size="1.27" layer="96">&gt;NAME</text>
+<text x="2.54" y="5.08" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="606X" prefix="X" uservalue="yes">
@@ -183,6 +244,27 @@
 <connect gate="G$1" pin="P$3" pad="3"/>
 <connect gate="G$1" pin="P$4" pad="4"/>
 <connect gate="G$1" pin="P$5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ACS711">
+<description>Hall Effect Linear Current Sensor with Overcurrent Fault Output for 100 V Isolation Applications</description>
+<gates>
+<gate name="G$1" symbol="ACS711" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO8">
+<connects>
+<connect gate="G$1" pin="/FAULT" pad="6"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="IP+" pad="1 2"/>
+<connect gate="G$1" pin="IP-" pad="3 4"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="VOUT" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>
