@@ -11106,9 +11106,19 @@ ULN and UDN Series&lt;p&gt;
 <sheets>
 <sheet>
 <plain>
-<text x="-78.74" y="96.52" size="6.4516" layer="97">DC Labs</text>
-<text x="-78.74" y="86.36" size="6.4516" layer="97">www.danielcasner.org</text>
-<text x="-78.74" y="106.68" size="6.4516" layer="97">SensorDIO</text>
+<text x="-78.74" y="106.68" size="6.4516" layer="97">DC Labs</text>
+<text x="-78.74" y="96.52" size="6.4516" layer="97">www.danielcasner.org</text>
+<text x="-78.74" y="116.84" size="6.4516" layer="97">SensorDIO</text>
+<wire x1="-101.6" y1="-7.62" x2="-101.6" y2="91.44" width="0.1524" layer="97" style="longdash"/>
+<wire x1="-101.6" y1="91.44" x2="104.14" y2="91.44" width="0.1524" layer="97" style="longdash"/>
+<wire x1="104.14" y1="91.44" x2="104.14" y2="-7.62" width="0.1524" layer="97" style="longdash"/>
+<wire x1="104.14" y1="-7.62" x2="-101.6" y2="-7.62" width="0.1524" layer="97" style="longdash"/>
+<wire x1="-104.14" y1="-7.62" x2="-104.14" y2="45.72" width="0.1524" layer="97" style="longdash"/>
+<wire x1="-104.14" y1="45.72" x2="-190.5" y2="45.72" width="0.1524" layer="97" style="longdash"/>
+<wire x1="-190.5" y1="45.72" x2="-190.5" y2="-7.62" width="0.1524" layer="97" style="longdash"/>
+<wire x1="-190.5" y1="-7.62" x2="-104.14" y2="-7.62" width="0.1524" layer="97" style="longdash"/>
+<text x="-99.06" y="81.28" size="5.08" layer="97">SensorDIO accessory</text>
+<text x="-187.96" y="38.1" size="5.08" layer="97">Darlington Add-on</text>
 </plain>
 <instances>
 <instance part="IC1" gate="P" x="2.54" y="15.24" rot="MR0"/>
