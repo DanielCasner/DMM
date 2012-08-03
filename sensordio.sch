@@ -11492,56 +11492,63 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="-116.84" y1="17.78" x2="-137.16" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="DRIVE7" class="0">
 <segment>
 <pinref part="JIO2" gate="G$1" pin="1"/>
 <pinref part="IC2" gate="A" pin="O7"/>
 <wire x1="-175.26" y1="2.54" x2="-162.56" y2="2.54" width="0.1524" layer="91"/>
+<label x="-172.72" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="DRIVE6" class="0">
 <segment>
 <pinref part="JIO2" gate="G$1" pin="2"/>
 <pinref part="IC2" gate="A" pin="O6"/>
 <wire x1="-175.26" y1="5.08" x2="-162.56" y2="5.08" width="0.1524" layer="91"/>
+<label x="-172.72" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="DRIVE5" class="0">
 <segment>
 <pinref part="JIO2" gate="G$1" pin="3"/>
 <pinref part="IC2" gate="A" pin="O5"/>
 <wire x1="-175.26" y1="7.62" x2="-162.56" y2="7.62" width="0.1524" layer="91"/>
+<label x="-172.72" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="DRIVE4" class="0">
 <segment>
 <pinref part="JIO2" gate="G$1" pin="4"/>
 <pinref part="IC2" gate="A" pin="O4"/>
 <wire x1="-175.26" y1="10.16" x2="-162.56" y2="10.16" width="0.1524" layer="91"/>
+<label x="-172.72" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="DRIVE3" class="0">
 <segment>
 <pinref part="JIO2" gate="G$1" pin="5"/>
 <pinref part="IC2" gate="A" pin="O3"/>
 <wire x1="-175.26" y1="12.7" x2="-162.56" y2="12.7" width="0.1524" layer="91"/>
+<label x="-172.72" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="DRIVE2" class="0">
 <segment>
 <pinref part="JIO2" gate="G$1" pin="6"/>
 <pinref part="IC2" gate="A" pin="O2"/>
 <wire x1="-175.26" y1="15.24" x2="-162.56" y2="15.24" width="0.1524" layer="91"/>
+<label x="-172.72" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="DRIVE1" class="0">
 <segment>
 <pinref part="JIO2" gate="G$1" pin="7"/>
 <pinref part="IC2" gate="A" pin="O1"/>
 <wire x1="-175.26" y1="17.78" x2="-162.56" y2="17.78" width="0.1524" layer="91"/>
+<label x="-172.72" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="GPIO" class="0">
 <segment>
 <pinref part="JIO2" gate="G$1" pin="8"/>
 <wire x1="-175.26" y1="20.32" x2="-167.64" y2="20.32" width="0.1524" layer="91"/>
@@ -11550,6 +11557,7 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="-139.7" y1="27.94" x2="-132.08" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="JIO1" gate="G$1" pin="8"/>
 <wire x1="-132.08" y1="20.32" x2="-116.84" y2="20.32" width="0.1524" layer="91"/>
+<label x="-154.94" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
